@@ -1,0 +1,150 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "bef248387de9450fe1fc",
+  "publicPath": "/static/",
+  "outputPath": "/Users/erik/projects/eriks-chakra-theme/build/static",
+  "assetsByChunkName": {
+    "archive": "archive.module.js",
+    "erik-thor-portfolio": "erik-thor-portfolio.module.js"
+  },
+  "assets": [
+    {
+      "name": "archive.module.js",
+      "size": 94212,
+      "chunks": [
+        "archive"
+      ],
+      "chunkNames": [
+        "archive"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "erik-thor-portfolio.module.js",
+      "size": 13995568,
+      "chunks": [
+        "erik-thor-portfolio"
+      ],
+      "chunkNames": [
+        "erik-thor-portfolio"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/pattern-tile-green.svg",
+      "size": 74467,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/frontity-chakra-theme/src/assets/pattern-tile-green.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/pattern-tile-light-fade.svg",
+      "size": 95727,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/frontity-chakra-theme/src/assets/pattern-tile-light-fade.svg"
+      },
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "erik-thor-portfolio": {
+      "chunks": [
+        "erik-thor-portfolio"
+      ],
+      "assets": [
+        "erik-thor-portfolio.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "erik-thor-portfolio": {
+      "chunks": [
+        "erik-thor-portfolio"
+      ],
+      "assets": [
+        "erik-thor-portfolio.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "archive": {
+      "chunks": [
+        "archive"
+      ],
+      "assets": [
+        "archive.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "archive",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 29312,
+      "names": [
+        "archive"
+      ],
+      "files": [
+        "archive.module.js"
+      ],
+      "hash": "04fc0d7bade11497af48",
+      "siblings": [],
+      "parents": [
+        "erik-thor-portfolio"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "erik-thor-portfolio",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 3185461,
+      "names": [
+        "erik-thor-portfolio"
+      ],
+      "files": [
+        "erik-thor-portfolio.module.js"
+      ],
+      "hash": "9e02b4a7f56ffb18e9be",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "archive"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
